@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0; }
 
+a {
+  cursor: pointer; }
+
 .topMeau {
   width: 100%;
   height: 33px;
@@ -133,13 +136,48 @@
         float: right;
         margin-top: 4px; }
 
-.banner {
+#box {
   width: 100%;
-  height: 480px; }
-  .banner img {
-    width: 100%;
-    display: block;
-    height: 480px; }
+  height: 480px;
+  position: relative;
+  overflow: hidden; }
+
+#imglist {
+  height: 480px;
+  position: absolute;
+  width: 9103px; }
+
+#imglist li {
+  list-style: none;
+  float: left;
+  width: 1309px; }
+
+#imglist img {
+  width: 1309px;
+  height: 480px;
+  display: block;
+  border: none; }
+
+#num {
+  position: absolute;
+  bottom: 10px;
+  right: 500px; }
+
+#num li {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #5f6061;
+  color: #fff;
+  float: left;
+  margin: 10px;
+  list-style: none;
+  text-align: center;
+  line-height: 20px;
+  cursor: pointer; }
+
+#num li:hover, #num li.hover {
+  background: #f4a12a; }
 
 .must {
   width: 1190px;
@@ -172,7 +210,8 @@
       float: left;
       width: 231px;
       height: 255px;
-      border: 1px solid #e8e8e8; }
+      border: 1px solid #e8e8e8;
+      position: relative; }
       .must-list .list li div {
         width: 231px;
         height: 51px; }
@@ -187,6 +226,18 @@
           color: red;
           font-size: 12px;
           margin-left: 13px; }
+      .must-list .list li div:nth-of-type(2) {
+        display: none;
+        position: absolute;
+        bottom: 9px;
+        left: 36px;
+        background: #7db030;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        width: 160px;
+        height: 24px;
+        line-height: 24px; }
       .must-list .list li img {
         display: block;
         margin-left: 13px; }
@@ -356,6 +407,13 @@
         font-size: 12px;
         color: #333;
         margin: 8px 8px; }
+        .fresh .f-right .up p a:hover {
+          color: #fff;
+          background: #76ac25;
+          width: 55px;
+          height: 55px;
+          display: block;
+          border-radius: 50%; }
     .fresh .f-right img {
       display: block; }
 
@@ -428,6 +486,13 @@
         font-size: 12px;
         color: #333;
         margin: 8px 8px; }
+        .meat .m-right .m-up p a:hover {
+          color: #fff;
+          background: #fa648c;
+          width: 55px;
+          height: 55px;
+          display: block;
+          border-radius: 50%; }
     .meat .m-right img {
       display: block; }
 
@@ -500,6 +565,13 @@
         font-size: 12px;
         color: #333;
         margin: 8px 8px; }
+        .sushi .s-right .s-up p a:hover {
+          color: #fff;
+          background: #ff6c00;
+          width: 55px;
+          height: 55px;
+          display: block;
+          border-radius: 50%; }
     .sushi .s-right img {
       display: block; }
 
@@ -564,6 +636,13 @@
         font-size: 12px;
         color: #333;
         margin: 8px 8px; }
+        .ganhuo .g-right .g-up p a:hover {
+          color: #fff;
+          background: #fa648c;
+          width: 55px;
+          height: 55px;
+          display: block;
+          border-radius: 50%; }
     .ganhuo .g-right img {
       display: block; }
 
@@ -636,6 +715,13 @@
         font-size: 12px;
         color: #333;
         margin: 8px 8px; }
+        .sugar .r-right .r-up p a:hover {
+          color: #fff;
+          background: #d12e49;
+          width: 55px;
+          height: 55px;
+          display: block;
+          border-radius: 50%; }
     .sugar .r-right img {
       display: block; }
 
@@ -700,6 +786,13 @@
         font-size: 12px;
         color: #333;
         margin: 8px 8px; }
+        .tea .t-right .t-up p a:hover {
+          color: #fff;
+          background: #f08c18;
+          width: 55px;
+          height: 55px;
+          display: block;
+          border-radius: 50%; }
     .tea .t-right img {
       display: block; }
 
@@ -772,6 +865,13 @@
         font-size: 12px;
         color: #333;
         margin: 8px 8px; }
+        .drink .d-right .d-up p a:hover {
+          color: #fff;
+          background: #78b270;
+          width: 55px;
+          height: 55px;
+          display: block;
+          border-radius: 50%; }
     .drink .d-right img {
       display: block; }
 
@@ -960,5 +1060,86 @@
 .bottom {
   width: 1200px;
   height: 285px;
-  background: paleturquoise;
   margin: 0 auto; }
+  .bottom .b-up {
+    width: 1200px;
+    height: 180px; }
+    .bottom .b-up img {
+      display: block;
+      padding-top: 20px;
+      float: left;
+      margin-right: 100px; }
+    .bottom .b-up .items {
+      float: left; }
+      .bottom .b-up .items dl {
+        float: left;
+        margin: 0 32px;
+        padding-top: 40px; }
+        .bottom .b-up .items dl dt {
+          font-size: 14px;
+          color: #707070; }
+        .bottom .b-up .items dl dd {
+          font-size: 12px;
+          color: #646464;
+          line-height: 20px; }
+          .bottom .b-up .items dl dd a:hover {
+            color: #669900; }
+    .bottom .b-up .shouji {
+      width: 90px;
+      float: left; }
+      .bottom .b-up .shouji h3 {
+        font-size: 12px;
+        color: #646464;
+        text-align: center;
+        margin-top: 40px; }
+      .bottom .b-up .shouji img {
+        display: block;
+        margin-left: 10px; }
+    .bottom .b-up .guanfang {
+      width: 100px;
+      float: left;
+      margin-left: 40px; }
+      .bottom .b-up .guanfang h3 {
+        font-size: 12px;
+        color: #666;
+        text-align: center;
+        margin-top: 40px; }
+      .bottom .b-up .guanfang img {
+        display: block;
+        margin-left: 10px; }
+  .bottom .b-down {
+    width: 1200px;
+    height: 105px; }
+    .bottom .b-down img {
+      display: block;
+      float: left;
+      margin-top: 15px;
+      margin-left: 5px; }
+    .bottom .b-down ul {
+      padding-top: 16px;
+      width: 900px;
+      float: left; }
+      .bottom .b-down ul li {
+        float: left;
+        list-style: none;
+        font-size: 12px;
+        margin: 0 8px;
+        color: #646464; }
+      .bottom .b-down ul li:last-child {
+        color: #969696; }
+    .bottom .b-down p {
+      color: #969696;
+      font-size: 12px; }
+      .bottom .b-down p span {
+        margin: 6px 10px; }
+
+.louti {
+  position: fixed;
+  bottom: 70px;
+  right: 10px; }
+  .louti li {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #e1e1e1;
+    margin-top: 6px;
+    list-style: none; }

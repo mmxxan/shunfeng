@@ -15,6 +15,9 @@ header {
     font-size: 20px;
     color: #515151; }
 
+a {
+  cursor: pointer; }
+
 article {
   width: 76%;
   margin: 0 auto;
@@ -62,7 +65,8 @@ article {
           border-right: 0; }
       article #deng .tab .show {
         height: 334px;
-        margin-top: 24px; }
+        margin-top: 24px;
+        position: relative; }
         article #deng .tab .show span {
           display: block;
           width: 45px;
@@ -95,6 +99,14 @@ article {
           margin-top: 20px;
           font-size: 12px;
           color: #666; }
+        article #deng .tab .show span:nth-of-type(4) {
+          position: absolute;
+          display: block;
+          width: 90px;
+          height: 43px;
+          background: a1a2a2;
+          left: 250px;
+          top: 120px; }
     article #deng .con {
       text-align: center; }
       article #deng .con li {

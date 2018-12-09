@@ -15,14 +15,19 @@ gulp.task("copy-index",function(){
 gulp.task("copy-images",function(){
 	gulp.src("images/**").pipe(gulp.dest("dist/images"));
 });
+gulp.task("copy-js",function(){
+	gulp.src("js/*.js").pipe(gulp.dest("dist/js"));
+});
 gulp.task("data",function(){
 	gulp.src("json/*").pipe(gulp.dest("dist/data"));
+	//gulp.src("js/*").pipe(gulp.dest("dist/data"));
 })
 
 gulp.task("watch",function(){
 	gulp.watch("*.html",["copy-index"]);
 	gulp.watch("sass/*.scss",["sass"]);
 	gulp.watch("json/*.json",["data"]);
+	gulp.watch("js/*.js",["copy-js"]);
 })
 
 gulp.task("sass",function(){
