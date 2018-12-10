@@ -1,0 +1,458 @@
+[
+	{
+		"recm": [
+			{
+				"tit": "猪肉",
+				"link": "#"
+			}, {
+				"tit": "羊肉",
+				"link": "#"
+			}, {
+				"tit": "牛肉",
+				"link": "#"
+			}, {
+				"tit": "家禽",
+				"link": "#"
+			}, {
+				"tit": "加工肉类",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "肉",
+				"subNavList": [
+					"猪",
+					"样",
+					"牛"
+				]
+			},
+			{
+				"subNavTit": "海鲜",
+				"subNavList": [
+					"虾",
+					"鱼",
+					"贝"
+				]
+			},
+			{
+				"subNavTit": "加工肉类",
+				"subNavList": [
+					"人造肉",
+					"水产礼盒",
+					"大闸蟹"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "水果",
+				"link": "#"
+			}, {
+				"tit": "蔬菜",
+				"link": "#"
+			}, {
+				"tit": "橙子",
+				"link": "#"
+			}, {
+				"tit": "提子",
+				"link": "#"
+			}, {
+				"tit": "葡萄",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "水果",
+				"subNavList": [
+					"车厘子",
+					"樱桃",
+					"芋头"
+				]
+			},
+			{
+				"subNavTit": "水果",
+				"subNavList": [
+					"苹果",
+					"荔枝",
+					"蓝莓"
+				]
+			},
+			{
+				"subNavTit": "蔬菜",
+				"subNavList": [
+					"油麦菜",
+					"小白菜",
+					"豆腐"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "熟食",
+				"link": "#"
+			}, {
+				"tit": "面点",
+				"link": "#"
+			}, {
+				"tit": "速食",
+				"link": "#"
+			}, {
+				"tit": "冰点",
+				"link": "#"
+			}, {
+				"tit": "蛋类",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "熟食",
+				"subNavList": [
+					"香肠",
+					"火腿",
+					"培根"
+				]
+			},
+			{
+				"subNavTit": "速食",
+				"subNavList": [
+					"饺子",
+					"汤圆",
+					"烩面"
+				]
+			},
+			{
+				"subNavTit": "冰品",
+				"subNavList": [
+					"冰淇淋",
+					"水果冰点",
+					"甜筒"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "葡萄酒",
+				"link": "#"
+			}, {
+				"tit": "白酒",
+				"link": "#"
+			}, {
+				"tit": "啤酒",
+				"link": "#"
+			}, {
+				"tit": "洋酒",
+				"link": "#"
+			}, {
+				"tit": "果汁",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "葡萄球",
+				"subNavList": [
+					"红葡萄酒",
+					"白葡萄酒",
+					"甜葡萄酒"
+				]
+			},
+			{
+				"subNavTit": "啤酒",
+				"subNavList": [
+					"果啤",
+					"白啤",
+					"黄啤"
+				]
+			},
+			{
+				"subNavTit": "果汁",
+				"subNavList": [
+					"果蔬",
+					"纯果汁",
+					"咖啡"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "零食",
+				"link": "#"
+			}, {
+				"tit": "坚果",
+				"link": "#"
+			}, {
+				"tit": "糖果",
+				"link": "#"
+			}, {
+				"tit": "饼干",
+				"link": "#"
+			}, {
+				"tit": "季节性食品",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "零食",
+				"subNavList": [
+					"肉类",
+					"干果",
+					"膨化"
+				]
+			},
+			{
+				"subNavTit": "空调",
+				"subNavList": [
+					"壁挂式空调",
+					"柜式空调",
+					"中央空调"
+				]
+			},
+			{
+				"subNavTit": "洗衣机",
+				"subNavList": [
+					"滚筒洗衣机",
+					"波轮洗衣机",
+					"迷你洗衣机"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "618嗨购",
+				"link": "#"
+			}, {
+				"tit": "家电馆",
+				"link": "#"
+			}, {
+				"tit": "乡镇专卖店",
+				"link": "#"
+			}, {
+				"tit": "家电服务",
+				"link": "#"
+			}, {
+				"tit": "家电企业购",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "电视",
+				"subNavList": [
+					"曲面电视",
+					"超薄电视",
+					"HDR电视"
+				]
+			},
+			{
+				"subNavTit": "空调",
+				"subNavList": [
+					"壁挂式空调",
+					"柜式空调",
+					"中央空调"
+				]
+			},
+			{
+				"subNavTit": "洗衣机",
+				"subNavList": [
+					"滚筒洗衣机",
+					"波轮洗衣机",
+					"迷你洗衣机"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "618嗨购",
+				"link": "#"
+			}, {
+				"tit": "家电馆",
+				"link": "#"
+			}, {
+				"tit": "乡镇专卖店",
+				"link": "#"
+			}, {
+				"tit": "家电服务",
+				"link": "#"
+			}, {
+				"tit": "家电企业购",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "电视",
+				"subNavList": [
+					"曲面电视",
+					"超薄电视",
+					"HDR电视"
+				]
+			},
+			{
+				"subNavTit": "空调",
+				"subNavList": [
+					"壁挂式空调",
+					"柜式空调",
+					"中央空调"
+				]
+			},
+			{
+				"subNavTit": "洗衣机",
+				"subNavList": [
+					"滚筒洗衣机",
+					"波轮洗衣机",
+					"迷你洗衣机"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	},
+	{
+		"recm": [
+			{
+				"tit": "618嗨购",
+				"link": "#"
+			}, {
+				"tit": "家电馆",
+				"link": "#"
+			}, {
+				"tit": "乡镇专卖店",
+				"link": "#"
+			}, {
+				"tit": "家电服务",
+				"link": "#"
+			}, {
+				"tit": "家电企业购",
+				"link": "#"
+			}
+		],
+		"subNavLists": [
+			{
+				"subNavTit": "电视",
+				"subNavList": [
+					"曲面电视",
+					"超薄电视",
+					"HDR电视"
+				]
+			},
+			{
+				"subNavTit": "空调",
+				"subNavList": [
+					"壁挂式空调",
+					"柜式空调",
+					"中央空调"
+				]
+			},
+			{
+				"subNavTit": "洗衣机",
+				"subNavList": [
+					"滚筒洗衣机",
+					"波轮洗衣机",
+					"迷你洗衣机"
+				]
+			}
+		],
+		"tjImg": [
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg",
+			"imgs/tj01.jpg"
+		],
+		"tjImgBig": [
+			"imgs/tj02.jpg",
+			"imgs/tj02.jpg"
+		]
+	}
+]

@@ -5,14 +5,7 @@ var aLi = oImglist.children;
 var perWidth = aLi[0].offsetWidth;
 var oNum = document.getElementById("num");
 var aNumlist = oNum.children;
-oImglist.style.width = aLi.length*perWidth + 'px';
-			
-			
-let oList = document.getElementsByClassName("list-group");
-let oLi = document.getElementsByClassName("list-d");
-let oJoin = document.getElementsByClassName("join");
-
-
+oImglist.style.width = aLi.length*perWidth + 'px';	
 			var timer = setInterval(function(){
 				move();
 			},3000)	
@@ -55,13 +48,6 @@ let oJoin = document.getElementsByClassName("join");
 					},2000)
 				}
 				
+				
 
-//加入购物车
-
-oLi.onmouseover = function(){
-	oJoin.style.display = "block";
-}
-
-
-
-//楼梯
+//热门评论

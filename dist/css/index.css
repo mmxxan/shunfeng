@@ -5,6 +5,19 @@
 a {
   cursor: pointer; }
 
+a:hover {
+  color: #669900; }
+
+li {
+  list-style: none; }
+
+em {
+  font-style: normal; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
 .topMeau {
   width: 100%;
   height: 33px;
@@ -121,10 +134,13 @@ a {
         text-align: center;
         font-size: 12px;
         line-height: 36px; }
+        .head .hc .nav01 li a {
+          display: block; }
       .head .hc .nav01 li:first-child {
-        width: 200px; }
-      .head .hc .nav01 li:first-child:hover {
+        width: 200px;
         background: #679801;
+        color: #fff; }
+      .head .hc .nav01 li:first-child a:hover {
         color: #fff; }
       .head .hc .nav01 li:nth-child(2) {
         color: #669900; }
@@ -176,8 +192,131 @@ a {
   line-height: 20px;
   cursor: pointer; }
 
-#num li:hover, #num li.hover {
+#num li:hover,
+#num li.hover {
   background: #f4a12a; }
+
+#box .rSide {
+  position: absolute;
+  left: 1001px;
+  top: 13px; }
+
+#box #partNav {
+  position: absolute;
+  left: 75px;
+  top: 0;
+  z-index: 1; }
+
+.clearfix:after {
+  display: block;
+  content: "";
+  overflow: hidden;
+  clear: both; }
+
+img {
+  display: block;
+  border: none; }
+
+.mt20 {
+  margin-top: 20px; }
+
+#partNav {
+  position: relative;
+  width: 200px;
+  height: 460px;
+  padding: 12px 0;
+  background: #76ac25;
+  color: #fff; }
+
+#partNav li {
+  padding-left: 12px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 0; }
+
+#partNav li:hover {
+  background: #999395; }
+
+#partNav span {
+  margin: 0 4px;
+  font-size: 14px; }
+
+#partNav li a {
+  color: #fff;
+  font-size: 14px; }
+
+#partNav li a:hover {
+  color: #C81623; }
+
+#partNav .navCon {
+  display: none;
+  position: absolute;
+  left: 190px;
+  top: 0;
+  width: 560px;
+  height: 480px;
+  margin-left: 10px;
+  border: 1px solid #f7f7f7;
+  background-color: #f7f7f7;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.3); }
+
+#partNav .navList {
+  padding: 20px 15px 20px 20px; }
+
+#partNav .part1 {
+  float: left;
+  width: 780px; }
+
+#partNav .part2 {
+  float: right;
+  width: 170px; }
+
+#partNav .channel a {
+  float: left;
+  margin-right: 10px;
+  padding: 2px 8px;
+  background: #6e6568;
+  color: #fff; }
+
+#partNav .detail {
+  margin: 20px 0; }
+
+#partNav .detail_item {
+  margin-bottom: 15px; }
+
+#partNav .detail dt {
+  float: left;
+  width: 70px;
+  text-align: right; }
+
+#partNav .detail dt a {
+  display: block;
+  padding: 2px 0;
+  color: #545454;
+  font-weight: bold; }
+
+#partNav .detail dt a:hover,
+#partNav .detail dd a:hover {
+  color: #C81623; }
+
+#partNav .detail dd {
+  padding-left: 70px; }
+
+#partNav .detail dd a {
+  display: inline-block;
+  padding: 2px 0;
+  margin: 0 5px;
+  color: #787878; }
+
+#partNav .detail dd a:before {
+  content: "|";
+  margin-right: 12px;
+  color: #999; }
+
+#partNav .part2 a {
+  display: block;
+  float: left;
+  margin: 0 2px 2px 0; }
 
 .must {
   width: 1190px;
@@ -241,7 +380,10 @@ a {
       .must-list .list li img {
         display: block;
         margin-left: 13px; }
-    .must-list .list li:nth-child(5), .must-list .list li:nth-child(6), .must-list .list li:nth-child(7), .must-list .list li:nth-child(8) {
+    .must-list .list li:nth-child(5),
+    .must-list .list li:nth-child(6),
+    .must-list .list li:nth-child(7),
+    .must-list .list li:nth-child(8) {
       border-top: 0; }
   .must-list .kuaibao {
     width: 221px;
@@ -377,7 +519,8 @@ a {
       float: left;
       width: 160px;
       height: 228px;
-      margin: 0 11px; }
+      margin: 0 11px;
+      position: relative; }
       .fresh .f-center dl dd {
         font-size: 12px;
         width: 160px;
@@ -387,6 +530,18 @@ a {
           color: red;
           display: block;
           margin-top: 8px; }
+      .fresh .f-center dl dd:nth-of-type(2) {
+        display: none;
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        background: #7db030;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        width: 160px;
+        height: 24px;
+        line-height: 24px; }
   .fresh .f-right {
     width: 220px;
     height: 470px;
@@ -447,7 +602,8 @@ a {
       font-size: 16px; }
     .meat .m-left img {
       display: block;
-      float: left; }
+      float: left;
+      margin-left: -10px; }
   .meat .m-center {
     width: 730px;
     height: 470px;
@@ -456,7 +612,8 @@ a {
       float: left;
       width: 160px;
       height: 228px;
-      margin: 0 11px; }
+      margin: 0 11px;
+      position: relative; }
       .meat .m-center dl dd {
         font-size: 12px;
         width: 160px;
@@ -466,6 +623,18 @@ a {
           color: red;
           display: block;
           margin-top: 8px; }
+      .meat .m-center dl dd:nth-of-type(2) {
+        display: none;
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        background: #7db030;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        width: 160px;
+        height: 24px;
+        line-height: 24px; }
   .meat .m-right {
     width: 220px;
     height: 470px;
@@ -526,7 +695,8 @@ a {
       font-size: 16px; }
     .sushi .s-left img {
       display: block;
-      float: left; }
+      float: left;
+      margin-left: -10px; }
   .sushi .s-center {
     width: 730px;
     height: 470px;
@@ -535,7 +705,8 @@ a {
       float: left;
       width: 160px;
       height: 228px;
-      margin: 0 11px; }
+      margin: 0 11px;
+      position: relative; }
       .sushi .s-center dl dd {
         font-size: 12px;
         width: 160px;
@@ -545,6 +716,18 @@ a {
           color: red;
           display: block;
           margin-top: 8px; }
+      .sushi .s-center dl dd:nth-of-type(2) {
+        display: none;
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        background: #7db030;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        width: 160px;
+        height: 24px;
+        line-height: 24px; }
   .sushi .s-right {
     width: 220px;
     height: 470px;
@@ -597,7 +780,8 @@ a {
       font-size: 16px; }
     .ganhuo .g-left img {
       display: block;
-      float: left; }
+      float: left;
+      margin-left: -10px; }
   .ganhuo .g-center {
     width: 730px;
     height: 470px;
@@ -606,7 +790,8 @@ a {
       float: left;
       width: 160px;
       height: 228px;
-      margin: 0 11px; }
+      margin: 0 11px;
+      position: relative; }
       .ganhuo .g-center dl dd {
         font-size: 12px;
         width: 160px;
@@ -616,6 +801,18 @@ a {
           color: red;
           display: block;
           margin-top: 8px; }
+      .ganhuo .g-center dl dd:nth-of-type(2) {
+        display: none;
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        background: #7db030;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        width: 160px;
+        height: 24px;
+        line-height: 24px; }
   .ganhuo .g-right {
     width: 220px;
     height: 470px;
@@ -676,7 +873,8 @@ a {
       font-size: 16px; }
     .sugar .r-left img {
       display: block;
-      float: left; }
+      float: left;
+      margin-left: -10px; }
   .sugar .r-center {
     width: 730px;
     height: 470px;
@@ -685,7 +883,8 @@ a {
       float: left;
       width: 160px;
       height: 228px;
-      margin: 0 11px; }
+      margin: 0 11px;
+      position: relative; }
       .sugar .r-center dl dd {
         font-size: 12px;
         width: 160px;
@@ -695,6 +894,18 @@ a {
           color: red;
           display: block;
           margin-top: 8px; }
+      .sugar .r-center dl dd:nth-of-type(2) {
+        display: none;
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        background: #7db030;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        width: 160px;
+        height: 24px;
+        line-height: 24px; }
   .sugar .r-right {
     width: 220px;
     height: 470px;
@@ -747,7 +958,8 @@ a {
       font-size: 16px; }
     .tea .t-left img {
       display: block;
-      float: left; }
+      float: left;
+      margin-left: -10px; }
   .tea .t-center {
     width: 730px;
     height: 470px;
@@ -756,7 +968,8 @@ a {
       float: left;
       width: 160px;
       height: 228px;
-      margin: 0 11px; }
+      margin: 0 11px;
+      position: relative; }
       .tea .t-center dl dd {
         font-size: 12px;
         width: 160px;
@@ -766,6 +979,18 @@ a {
           color: red;
           display: block;
           margin-top: 8px; }
+      .tea .t-center dl dd:nth-of-type(2) {
+        display: none;
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        background: #7db030;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        width: 160px;
+        height: 24px;
+        line-height: 24px; }
   .tea .t-right {
     width: 220px;
     height: 470px;
@@ -826,7 +1051,8 @@ a {
       font-size: 16px; }
     .drink .d-left img {
       display: block;
-      float: left; }
+      float: left;
+      margin-left: -10px; }
   .drink .d-center {
     width: 730px;
     height: 470px;
@@ -835,7 +1061,8 @@ a {
       float: left;
       width: 160px;
       height: 228px;
-      margin: 0 11px; }
+      margin: 0 11px;
+      position: relative; }
       .drink .d-center dl dd {
         font-size: 12px;
         width: 160px;
@@ -845,6 +1072,18 @@ a {
           color: red;
           display: block;
           margin-top: 8px; }
+      .drink .d-center dl dd:nth-of-type(2) {
+        display: none;
+        position: absolute;
+        bottom: 62px;
+        left: 0;
+        background: #7db030;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        width: 160px;
+        height: 24px;
+        line-height: 24px; }
   .drink .d-right {
     width: 220px;
     height: 470px;
@@ -893,7 +1132,8 @@ a {
     float: left;
     width: 220px;
     margin: 0 9px;
-    height: 306px; }
+    height: 306px;
+    position: relative; }
     .tuijian dl dd {
       font-size: 12px;
       width: 220px;
@@ -903,6 +1143,18 @@ a {
         color: red;
         display: block;
         margin-top: 12px; }
+    .tuijian dl dd:nth-of-type(2) {
+      display: none;
+      position: absolute;
+      bottom: 92px;
+      left: 0;
+      background: #7db030;
+      color: #fff;
+      text-align: center;
+      font-size: 12px;
+      width: 170px;
+      height: 24px;
+      line-height: 24px; }
 
 .none {
   width: 710px;
@@ -973,32 +1225,37 @@ a {
       font-size: 16px;
       line-height: 50px;
       padding-left: 16px; }
-    .more .e-center ul {
+    .more .e-center .share {
       width: 420px;
       height: 150px;
-      overflow: hidden; }
-      .more .e-center ul li:nth-child(1) {
-        margin-top: 12px; }
-      .more .e-center ul li {
+      overflow: hidden;
+      position: relative; }
+      .more .e-center .share ul {
         width: 420px;
-        height: 68px;
-        border-bottom: 1px dashed #e8e8e8;
-        list-style: none; }
-        .more .e-center ul li img {
-          display: block;
-          float: left;
-          width: 50px;
-          height: 50px;
-          margin: 7px 20px 0 0; }
-        .more .e-center ul li a {
-          display: block;
-          font-size: 12px;
-          white-space: nowrap;
-          line-height: 20px;
-          width: 325px;
-          float: left; }
-        .more .e-center ul li a:nth-of-type(1) {
-          margin-top: 15px; }
+        height: 340px;
+        position: absolute; }
+        .more .e-center .share ul li:nth-child(1) {
+          margin-top: 12px; }
+        .more .e-center .share ul li {
+          width: 420px;
+          height: 68px;
+          border-bottom: 1px dashed #e8e8e8;
+          list-style: none; }
+          .more .e-center .share ul li img {
+            display: block;
+            float: left;
+            width: 50px;
+            height: 50px;
+            margin: 7px 20px 0 0; }
+          .more .e-center .share ul li a {
+            display: block;
+            font-size: 12px;
+            white-space: nowrap;
+            line-height: 20px;
+            width: 325px;
+            float: left; }
+          .more .e-center .share ul li a:nth-of-type(1) {
+            margin-top: 15px; }
   .more .e-right {
     width: 338px;
     height: 198px;
@@ -1142,4 +1399,7 @@ a {
     height: 45px;
     border: 1px solid #e1e1e1;
     margin-top: 6px;
-    list-style: none; }
+    list-style: none;
+    text-align: center;
+    background: pink;
+    font-size: 12px; }
