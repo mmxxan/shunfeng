@@ -110,4 +110,18 @@ $(function(){
 		}
 	},2000)	
 	
+	
+	$("#add").mouseenter(function(){
+		$("#address").stop().show();
+	})
+	$("#add").mouseleave(function(){
+		$("#address").hide();
+	})
+	
+	$(".ss").mouseenter(function(){
+		$(".sss").stop().show();
+	})
+	$(".ss").mouseleave(function(){
+		$(".sss").hide();
+	})
 })

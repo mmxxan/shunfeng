@@ -49,5 +49,11 @@ oImglist.style.width = aLi.length*perWidth + 'px';
 				}
 				
 				
+var oQdl = document.getElementById("qdl");
+var oYhm = document.getElementById("yonghuming");
 
-//热门评论
+var name = getCookie("username");
+if(name.length != 0){
+	oQdl.style.display = "none";
+	oYhm.innerHTML = name;
+}

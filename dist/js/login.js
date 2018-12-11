@@ -28,6 +28,7 @@ oDl.onclick = function(){
 			},function(data){
 				console.log(data);
 				if(data.msg=="OK"){
+					setCookie("username",loginName.value,7);
 					//alert("登录成功");
 					//location.href="index.html?"+"name="+loginName.value;
 					location.assign("index.html");
