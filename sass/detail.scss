@@ -150,6 +150,7 @@ li{list-style: none;}
             float: right;
             margin-top: -38px;
             line-height: 37px;
+            a{display: block; width: 150px; height: 37px;}
             span {
                 display: block;
                 width: 40px;
@@ -210,7 +211,7 @@ li{list-style: none;}
 }
 
 
-.content{width: 1200px; height: 580px; margin: 0 auto; 
+.content{width: 1200px; height: 580px; margin: 0 auto; position: relative;
     .c-left{width: 980px; height: 412px;  float: left;
         .cc-left{width: 410px; height: 371px;  float: left; position: relative;
             .small{width: 70px; height: 371px; float: left;  
@@ -219,20 +220,23 @@ li{list-style: none;}
             .middle{position: relative; width: 340px; height: 370px; float: left;
                 img{ display: block; width: 340px; height: 370px;}
                 #zoom{width: 170px; height: 185px; position: absolute;display: block;background: yellow;  opacity: .3;cursor: move; display: none;}
+                p{position: absolute; left: 350px; top: 0; width: 546px; height: 66px; line-height: 30px; padding: 12px 12px; font-size: 18px;}
+                input{position: absolute; left: 650px; top: 280px; width: 160px; height: 45px; background: #008000; color: #fff; text-align: center; line-height: 45px;}
             }  
             #bigArea{width: 338px; height: 368px; position: absolute; border: 1px solid #CECECE; overflow: hidden; left: 410px; top: 0; display: none;
                 img{width: 680px; height: 740px; position: absolute;}
+               
             } 
         }
         .cc-right{width: 570px; height: 370px; float: left; background: #fbfbfb;
-            h3{width: 546px; height: 56px; line-height: 30px; padding: 12px 12px; font-size: 18px;}
+            h3{width: 546px; height: 66px;}
             p{width: 558px; height: 62px; background: #fa8e19; padding-top: 33px; padding-left: 12px; 
                 span{font-size: 40px;}
             }
             .song{width: 517px; height: 88px;  padding: 5px 53px; font-size: 16px; line-height: 35px;border-bottom: 1px solid #E0E0E0;}
             .mai{width: 570px; height: 80px;  padding-top: 20px;
-                div:nth-of-type(1){width: 160px; height: 45px; background: #008000; color: #fff; text-align: center; line-height: 45px; float: left; margin-left: 120px;}
-                div:nth-of-type(2){width: 130px; height: 45px; background: #fa8e19; color: #fff; text-align: center; line-height: 45px; float: left; margin-left: 30px;}
+                input{width: 160px; height: 45px; background: #008000; color: #fff; text-align: center; line-height: 45px; float: left; margin-left: 120px;}
+                div{width: 130px; height: 45px; background: #fa8e19; color: #fff; text-align: center; line-height: 45px; float: left; margin-left: 30px;}
             }
         }
     }

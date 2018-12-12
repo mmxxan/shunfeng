@@ -168,6 +168,10 @@ a {
       float: right;
       margin-top: -38px;
       line-height: 37px; }
+      .head .hc .cart a {
+        display: block;
+        width: 158px;
+        height: 37px; }
       .head .hc .cart span {
         display: block;
         width: 40px;

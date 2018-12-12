@@ -51,15 +51,41 @@ var oBigImg = oBigArea.children[0];
 				//console.log(- _left/oMidArea.offsetWidth*oBigImg.offsetWidth);
 			}
            
-var oImg=document.getElementsByClassName("aaa");
-console.log(oImg)
-$.post("http://47.104.244.134:8080/goodsbyid.do",{
-	"id":9
-},function(data){
-	console.log(data);
+
+
+
+	//var oImg=document.getElementsByClassName("aaa");
+//console.log(oImg)
+	//var id = location.search.split("=")[1];
+/*$.get("http://47.104.244.134:8080/goodsbyid.do",{id:id},function(data){
+	
+	$(".mai input").attr("data-id","${data.id}");
+	console.log(data.id);
 	var url = data.picurl;
-	console.log(url);
 	oImg[0].src = url;
 	oImg[1].src = url;
-})
+	
+})*/
+$(function(){
+				var id = location.search.split("=")[1];
+				console.log(id);
+				$.get("http://47.104.244.134:8080/goodsbyid.do",{id:id},function(data){
+					//console.log(data);
+					var str = `<img src="${data.picurl}"><p>${data.name}</p><input type="button" data-id="${data.id}" value="加入购物车">`;
+					$(".middle").html(str);
+					
+					$("input").click(function(){
+						var id = $(this).attr("data-id");
+						var token = $.cookie("token");
+						$.get("http://47.104.244.134:8080/cartsave.do",{gid:id,token:token},function(data){
+							//console.log(data);
+							if(data.code==0){
+								alert("添加成功");		
+								location.href="cart.html";
+							}
+						})
+					})
+					
+				});
+			})
 //
